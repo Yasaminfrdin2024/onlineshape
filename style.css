@@ -1,0 +1,104 @@
+body{
+    background-color: rgb(235, 185, 220);
+    margin: 0;
+    padding: 0;
+    }
+    
+ul li{
+    list-style-type:none;
+    text-decoration:none;
+    margin:0;
+    padding: 0;
+    }
+    ul li a{
+     text-decoration: none;
+    }
+    
+nav ul
+{ display: flex;
+justify-content: center;
+}
+ul li {
+    margin:0 20px ;
+}
+ 
+ nav ul li{
+color: rgb(10, 10, 10);
+font-size: 16px;
+transition: background-color 0.3;
+}
+
+  ul li:hover{background-color:rgb(113, 169, 193);
+    color: rgb(214, 22, 137);
+}
+ul li:focus {background-color: rgb(185, 20, 59);
+}
+
+
+
+header{
+    background-color: rgb(178, 80, 146);
+    padding: 20px 0;
+    margin: 0;
+    }
+    h1{margin-left:80px;  
+    margin-top: 0px;  
+margin-bottom:20px ; }
+h2{ 
+    text-align:center;
+}
+.content{ 
+height:100vh;
+display: grid;
+gap: 3rem;
+grid-template-columns:1fr 1fr 1fr 1fr ;
+grid-template-rows: 1fr 1fr;
+}
+.item{ font-size:25px;
+color: black;
+background-color: rgb(226, 43, 144);
+display: grid;
+justify-content: center;
+align-items:center;
+}
+
+.iten{ font-size:25px;
+    color: black;
+    background-color: rgb(224, 111, 190);
+    display: grid;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    }
+.circle img { 
+height: 100px;
+width: 100px;
+border-radius: 50%;
+border:2px solid rgb(2, 2, 2);
+display:inline;
+}
+
+footer {
+    background-color: rgb( 178, 80, 146);
+    color: rgb(23, 22, 22);
+    text-align: center;
+    padding: 1px; 
+    bottom: 0;
+    width: 100%;
+}
+.hover hover{
+    border: radius:1px;
+transform:scale(1.21x);
+transition:transform 0.5; }
+
+.hover:hover {
+    transform: scale(1.05); }
+
+    .item:hover{ 
+transform:rotate( 15deg);
+
+    }
+.iten:hover{ 
+        transform:rotate( 15deg);
+}
+
